@@ -22,7 +22,7 @@ class App extends React.Component<{}, State> {
   createRandomName = () => {
     if (this.state.isClockVisible) {
       this.setState({
-        clockName: Math.round(Math.random() * 1000),
+        clockName: Math.round(Math.random() * 100),
       });
     }
   };
